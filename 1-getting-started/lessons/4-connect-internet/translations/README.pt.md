@@ -1,10 +1,10 @@
 # Conecte seu dispositivo à Internet
 
-![Uma visão geral do sketchnote desta lição](../../../sketchnotes/lesson-4.jpg)
+![Uma visão geral do sketchnote desta lição](../../../../sketchnotes/lesson-4.jpg)
 
 > Sketchnote por [Nitya Narasimhan](https://github.com/nitya). Clique na imagem para uma versão maior.
 
-Esta lição foi ministrada como parte da [série Hello IoT](https://youtube.com/playlist?list=PLmsFUfdnGr3xRts0TIwyaHyQuHaNQcb6-) do [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT .mc_id=academic-17441-jabenn). A aula foi ministrada em 2 vídeos - uma aula de 1 hora e uma hora de expediente de 1 hora, mergulhando mais profundamente em partes da aula e respondendo a perguntas.
+Esta lição foi ministrada como parte da [série Hello IoT](https://youtube.com/playlist?list=PLmsFUfdnGr3xRts0TIwyaHyQuHaNQcb6-) do [Microsoft Reactor](https://developer.microsoft.com/reactor/?WT.mc_id=academic-17441-jabenn). A aula foi ministrada em 2 vídeos - uma aula de 1 hora e uma hora de expediente de 1 hora, mergulhando mais profundamente em partes da aula e respondendo a perguntas.
 
 [![Lição 4: Conecte seu dispositivo à Internet](https://img.youtube.com/vi/O4dd172mZhs/0.jpg)](https://youtu.be/O4dd172mZhs)
 
@@ -53,7 +53,7 @@ O MQTT possui um único broker e vários clientes. Todos os clientes se conectam
 
 ### Conecte seu dispositivo IoT ao MQTT
 
-A primeira parte de adicionar o controle da Internet ao seu nightlight é conectá-lo a um broker MQTT.
+A primeira parte de adicionar o controle da Internet à sua LED (*nightlight*) é conectá-la a um broker MQTT.
 
 #### Tarefa
 
@@ -71,10 +71,10 @@ Em vez de lidar com as complexidades de configurar um corretor MQTT como parte d
 
 ![Um fluxograma da atribuição mostrando os níveis de luz sendo lidos e verificados, e o LED começa a ser controlado](../../../../images/assignment-1-internet-flow.png)
 
-Siga a etapa relevante abaixo para conectar seu dispositivo ao broker MQTT:
+Siga essas etapas que são relevante para conectar seu dispositivo ao broker MQTT:
 
-* [Arduino - Terminal Wio](wio-terminal-mqtt.md)
-* [Computador de placa única - dispositivo Raspberry Pi/Virtual IoT](computador de placa única-mqtt.md)
+* [Arduino - Terminal Wio](../wio-terminal-mqtt.md) (em inglês)
+* [Computador de placa única - dispositivo Raspberry Pi/Virtual IoT](../single-board-computer-mqtt.md) (em inglês)
 
 ### Um mergulho mais profundo no MQTT
 
@@ -130,9 +130,9 @@ Envie telemetria de nível leve para o broker MQTT.
 
 Os dados são enviados codificados como JSON - abreviação de JavaScript Object Notation, um padrão para codificar dados em texto usando pares de chave/valor.
 
-✅ Se você ainda não encontrou o JSON, saiba mais sobre ele na [documentação do JSON.org](https://www.json.org/).
+✅ Se você não sabe o que é JSON, saiba mais sobre ele na [documentação do JSON.org](https://www.json.org/).
 
-Siga a etapa relevante abaixo para enviar a telemetria do seu dispositivo para o agente MQTT:
+Siga essas etapas que são relevante para enviar a telemetria do seu dispositivo para o agente MQTT:
 
 * [Arduino - Terminal Wio](wio-terminal-telemetry.md)
 * [Computador de placa única - dispositivo Raspberry Pi/Virtual IoT](single-board-computer-telemetry.md)
@@ -260,11 +260,11 @@ Escreva o código do servidor.
 
 1. Quando o VS Code for iniciado, ele ativará o ambiente virtual do Python. Isso será relatado na barra de status inferior:
 
-     ![VS Code mostrando o ambiente virtual selecionado](../../../images/vscode-virtual-env.png)
+     ![VS Code mostrando o ambiente virtual selecionado](../../../../images/vscode-virtual-env.png)
 
 1. Se o VS Code Terminal já estiver em execução quando o VS Code for inicializado, ele não terá o ambiente virtual ativado nele. A coisa mais fácil de fazer é matar o terminal usando o botão **Kill the active terminal instance**:
 
-     ![VS Code Kill the active terminal instance button](../../../images/vscode-kill-terminal.png)
+     ![VS Code Kill the active terminal instance button](../../../../images/vscode-kill-terminal.png)
 
 1. Inicie um novo Terminal VS Code selecionando *Terminal -> New Terminal, ou pressionando `` CTRL+` ``. O novo terminal carregará o ambiente virtual, com a chamada para ativá-lo aparecendo no terminal. O nome do ambiente virtual (`.venv`) também estará no prompt:
 
@@ -360,7 +360,7 @@ Para que o MQTT lide com uma perda de conectividade, o código do dispositivo e 
 
 Comandos são mensagens enviadas pela nuvem para um dispositivo, instruindo-o a fazer algo. Na maioria das vezes, isso envolve fornecer algum tipo de saída por meio de um atuador, mas pode ser uma instrução para o próprio dispositivo, como reinicializar ou reunir telemetria extra e devolvê-la como resposta ao comando.
 
-![Um termostato conectado à Internet recebendo um comando para ligar o aquecimento](../../../images/commands.png)
+![Um termostato conectado à Internet recebendo um comando para ligar o aquecimento](../../../../images/commands.png)
 
 Um termostato poderia receber um comando da nuvem para ligar o aquecimento. Com base nos dados de telemetria de todos os sensores, se o serviço de nuvem decidiu que o aquecimento deve estar ligado, ele envia o comando relevante.
 
@@ -401,16 +401,16 @@ O próximo passo para nossa luz noturna controlada pela Internet é que o códig
 
 > 💁 A telemetria e os comandos estão sendo enviados em um único tópico cada. Isso significa que a telemetria de vários dispositivos aparecerá no mesmo tópico de telemetria e os comandos para vários dispositivos aparecerão no mesmo tópico de comandos. Se você quiser enviar um comando para um dispositivo específico, poderá usar vários tópicos, nomeados com um ID de dispositivo exclusivo, como `/commands/device1`, `/commands/device2`. Dessa forma, um dispositivo pode ouvir mensagens destinadas apenas a esse dispositivo.
 
-> 💁 Você pode encontrar este código na pasta [code-commands/server](code-commands/server).
+> 💁 Você pode encontrar este código na pasta [code-commands/server](../code-commands/server).
 
 ### Manipular comandos no dispositivo IoT
 
 Agora que os comandos estão sendo enviados do servidor, você pode adicionar código ao dispositivo IoT para lidar com eles e controlar o LED.
 
-Siga a etapa relevante abaixo para ouvir os comandos do broker MQTT:
+Siga essas etapas que são relevante para ouvir os comandos do broker MQTT:
 
-* [Arduino - Terminal Wio](wio-terminal-commands.md)
-* [Computador de placa única - dispositivo Raspberry Pi/Virtual IoT](single-board-computer-commands.md)
+* [Arduino - Terminal Wio](../wio-terminal-commands.md) (em inglês)
+* [Computador de placa única - dispositivo Raspberry Pi/Virtual IoT](../single-board-computer-commands.md) (em inglês)
 
 Depois que esse código estiver escrito e em execução, experimente alterar os níveis de luz. Observe a saída do servidor e do dispositivo e observe o LED conforme você altera os níveis de luz.
 

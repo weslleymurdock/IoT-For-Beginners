@@ -134,7 +134,7 @@ A próxima etapa é conectar seu dispositivo ao Hub IoT.
     }
     ```
 
-    Isso declara uma função de retorno de chamada que será chamada quando a conexão com o Hub IoT mudar de status, como conectar ou desconectar. O status é enviado para a porta serial.
+    Isso declara uma função de retorno de chamada (_callback_) que será chamada quando a conexão com o Hub IoT mudar de status, como conectar ou desconectar. O status é enviado para a porta serial.
 
 1. Abaixo disso, adicione uma função para se conectar ao Hub IoT:
 
@@ -232,7 +232,7 @@ Seu dispositivo precisa lidar com um comando do código do servidor para control
     }
     ```
 
-    Esse código define um método de retorno de chamada que a biblioteca do Hub IoT pode chamar quando recebe uma solicitação de método direto. O método solicitado é enviado no parâmetro `method_name`. Esta função imprime o método chamado para a porta serial, então liga ou desliga o relé dependendo do nome do método.
+    Esse código define um método de retorno de chamada (_callback_) que a biblioteca do Hub IoT pode chamar quando recebe uma solicitação de método direto. O método solicitado é enviado no parâmetro `method_name`. Esta função imprime o método chamado para a porta serial, então liga ou desliga o relé dependendo do nome do método.
 
      > 💁 Isso também pode ser implementado em uma única solicitação direta de método, passando o estado desejado do relé em uma carga útil que pode ser passada com a solicitação do método e disponível a partir do parâmetro `payload`.
 
@@ -281,7 +281,7 @@ Seu dispositivo precisa lidar com um comando do código do servidor para control
 
     Esse código fará um loop repetidamente, chamando `IOTHubDeviceClient_LL_DoWork` e atrasando por 100ms cada vez. Ele fará isso quantas vezes forem necessárias para atrasar a quantidade de tempo fornecida no parâmetro `delay_time`. Isso significa que o dispositivo está aguardando no máximo 100 ms para processar solicitações de métodos diretos.
 
-1. Na função `loop`, remova a chamada para `IOTHubDeviceClient_LL_DoWork` e substitua a chamada `delay(10000)` pelo seguinte para chamar esta nova função:
+1. Na função `loop`, remova a chamada para `IOTHubDeviceClient_LL_DoWork` e substitua a chamada `delay(10000)` pelo seguinte código para chamar esta nova função:
 
     ```cpp
     work_delay(10000);

@@ -20,7 +20,7 @@ Programe o dispositivo para publicar os dados de temperatura.
      - Adicione o código para se conectar ao broker MQTT
      - Adicione o código para publicar a telemetria
 
-    > ⚠️ Consulte as [instruções para conectar-se ao MQTT](../../../1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md) e as [instruções para enviar telemetry](../../../1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md) da lição 4, se necessário.
+    > ⚠️ Consulte as [instruções para conectar-se ao MQTT](../../../../1-getting-started/lessons/4-connect-internet/single-board-computer-mqtt.md) (em inglês) e as [instruções para enviar telemetry](../../../../1-getting-started/lessons/4-connect-internet/single-board-computer-telemetry.md) (em inglês) da lição 4, se necessário.
 
 1. Certifique-se de que o `client_name` reflita este nome de projeto:
 
@@ -52,6 +52,6 @@ Programe o dispositivo para publicar os dados de temperatura.
     Sending telemetry  {"temperature": 25}
     ```
 
-> 💁 Você pode encontrar esse código na pasta [code-publish-temperature/virtual-device](code-publish-temperature/virtual-device) ou na pasta [code-publish-temperature/pi](code-publish-temperature/pi).
+> 💁 Você pode encontrar esse código na pasta [code-publish-temperature/virtual-device](../code-publish-temperature/virtual-device) ou na pasta [code-publish-temperature/pi](../code-publish-temperature/pi).
 
 😀 Você publicou com sucesso a temperatura como telemetria do seu dispositivo.

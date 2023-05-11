@@ -20,7 +20,7 @@ Adicione os sensores de umidade e temperatura ao aplicativo CounterFit.
 
     > ⚠️ Você pode consultar [as instruções para criar e configurar um projeto CounterFit Python na lição 1, se necessário](../../../../1-getting-started/lessons/1-introduction-to-iot/translations/virtual-device.pt.md).
 
-1. Instale um pacote Pip adicional para instalar um calço CounterFit para o sensor DHT11. Certifique-se de estar instalando isso de um terminal com o ambiente virtual ativado.
+1. Instale um pacote Pip adicional para instalar um _shim_ CounterFit para o sensor DHT11. Certifique-se de estar instalando isso de um terminal com o ambiente virtual ativado.
 
     ```sh
     pip install counterfit-shims-seeed-python-dht
@@ -86,7 +86,7 @@ Programe o aplicativo do sensor de temperatura.
     from counterfit_shims_seeed_python_dht import DHT
     ```
 
-    A instrução `from seeed_dht import DHT` importa a classe de sensor `DHT` para interagir com um sensor de temperatura Grove virtual usando um calço do módulo `counterfit_shims_seeed_python_dht`.
+    A instrução `from seeed_dht import DHT` importa a classe de sensor `DHT` para interagir com um sensor de temperatura Grove virtual usando um _shim_ do módulo `counterfit_shims_seeed_python_dht`.
 
 1. Adicione o seguinte código após o código acima para criar uma instância da classe que gerencia o sensor virtual de umidade e temperatura:
 
@@ -96,7 +96,7 @@ Programe o aplicativo do sensor de temperatura.
 
     Isso declara uma instância da classe `DHT` que gerencia o sensor virtual **D**igital **H** de umidade e **T** de temperatura. O primeiro parâmetro informa ao código que o sensor que está sendo usado é um sensor virtual *DHT11*. O segundo parâmetro informa ao código que o sensor está conectado à porta `5`.
 
-    > 💁 O CounterFit simula este sensor combinado de umidade e temperatura conectando-se a 2 sensores, um sensor de umidade no pino fornecido quando a classe `DHT` é criada e um sensor de temperatura que é executado no próximo pino. Se o sensor de umidade estiver no pino 5, o calço espera que o sensor de temperatura esteja no pino 6.
+    > 💁 O CounterFit simula este sensor combinado de umidade e temperatura conectando-se a 2 sensores, um sensor de umidade no pino fornecido quando a classe `DHT` é criada e um sensor de temperatura que é executado no próximo pino. Se o sensor de umidade estiver no pino 5, o _shim_ espera que o sensor de temperatura esteja no pino 6.
 
 1. Adicione um loop infinito após o código acima para pesquisar o valor do sensor de temperatura e imprimi-lo no console:
 

@@ -37,7 +37,7 @@ Depois de ter os dados de temperatura, você pode usar o Jupyter Notebook neste 
 
 ## Rubrica
 
-| Criteria | Exemplary | Adequate | Needs Improvement |
+| Critério                       | Exemplar                            | Adequado                         | Precisa melhorar             |
 | -------- | --------- | -------- | ----------------- |
 | Capture dados | Capture ao menos 2 dias completos de dados | Capture ao menos 1 dia completo de dados | Capture algum dado |
 | Calcule o GDD | Execute o notebook com sucesso e calcule o GDD | Execute o notebook com sucesso | Não consigo executar o notebook |
