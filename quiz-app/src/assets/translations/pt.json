@@ -1,2461 +1,2461 @@
 [
 	{
-		"title": "IoT Development for Beginners: Quizzes",
-		"complete": "Congratulations, you completed the quiz!",
-		"error": "Sorry, try again",
-		"quizzes": [
-			{
-				"id": 1,
-				"title": "Lesson 1 - Introduction to IoT: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "The I in IoT stands for:",
-						"answerOptions": [
-							{
-								"answerText": "Internet",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Iridium",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Ironing",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "What's the estimated number of IoT devices in use by the end of 2020?",
-						"answerOptions": [
-							{
-								"answerText": "30",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "30 million",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "30 billion",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Smartphones are IoT devices",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 2,
-				"title": "Lesson 1 - Introduction to IoT: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT devices need to be connected to the Internet at all time",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "IoT devices are always secure",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "AI can be run on low powered IoT devices",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 3,
-				"title": "Lesson 2 - A deeper dive into IoT: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "The T in IoT stands for:",
-						"answerOptions": [
-							{
-								"answerText": "Transistors",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Things",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Turkeys",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "IoT devices gather information from the world around them using:",
-						"answerOptions": [
-							{
-								"answerText": "Sensors",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Actuators",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Carrier pigeons",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "IoT devices draw more power than the average desktop or laptop computer",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 4,
-				"title": "Lesson 2 - A deeper dive into IoT: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "The three steps in a CPU instruction cycle are:",
-						"answerOptions": [
-							{
-								"answerText": "Decode, Execute, Fetch",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Fetch, Decode, Execute",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Stop, Collaborate, Listen",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "What operating system do Raspberry Pis run?",
-						"answerOptions": [
-							{
-								"answerText": "They don't run an OS",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Windows 95",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Raspberry Pi OS",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "IoT devices typically run faster and have more memory than the average desktop or laptop computer",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 5,
-				"title": "Lesson 3 - Interact with the physical world with sensors and actuators: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "An LED is a sensor:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Sensors are used to:",
-						"answerOptions": [
-							{
-								"answerText": "Gather data from the physical world.",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Control the physical world.",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Only monitor temperature.",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Actuators are use to:",
-						"answerOptions": [
-							{
-								"answerText": "Gather data from the physical world.",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Control the physical world.",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "To calculate insurance risks.",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 6,
-				"title": "Lesson 3 - Interact with the physical world with sensors and actuators: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Digital sensors send data as:",
-						"answerOptions": [
-							{
-								"answerText": "Voltage ranges",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "High and low voltages only",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Emails",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "What digital signal is sent when a button is pressed?",
-						"answerOptions": [
-							{
-								"answerText": "0",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "1",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "You can control analog actuators from a digital device using pulse-width modulation",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 7,
-				"title": "Lesson 4 - Connect your device to the Internet: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT devices always need to be connected to the Internet to work:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "IoT devices always communicate over HTTP, the same as web apps and other web APIs:",
-						"answerOptions": [
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "IoT devices rely on the cloud for all their decision making:",
-						"answerOptions": [
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 8,
-				"title": "Lesson 4 - Connect your device to the Internet: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Data gathered from sensors and sent to the cloud is called:",
-						"answerOptions": [
-							{
-								"answerText": "Telemetry",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Commands",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Measurements",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "What should happen to a command if the IoT device is offline:",
-						"answerOptions": [
-							{
-								"answerText": "It should always be resent when the device is back online",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "It should never be resent when the device is back online",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "It depends on the command, the device and the requirements of the IoT app",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "MQTT, or Message Queueing Telemetry Transport, has message queues:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 9,
-				"title": "Lesson 5 - Predict plant growth: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT devices can be used to support agriculture",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Plant needs include: (pick the best answer)",
-						"answerOptions": [
-							{
-								"answerText": "Carbon dioxide, water, nutrients",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Carbon dioxide, water, nutrients, light",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Carbon dioxide, water, nutrients, light, warmth",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Sensors are too expensive for farmers in developed nations to use:",
-						"answerOptions": [
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 10,
-				"title": "Lesson 5 - Predict plant growth: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Plant growth is dependant on temperature",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "The temperatures to consider for plant growth are:",
-						"answerOptions": [
-							{
-								"answerText": "Minimum, maximum",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Base, optimal, maximum",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Maximum only",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Growing Degree Days are calculated using which formula:",
-						"answerOptions": [
-							{
-								"answerText": "(day max + day min) - plant base",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "((day max + day min) / 2) - plant base",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "((day min + plant base) / 2)",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 11,
-				"title": "Lesson 6 - Detect soil moisture: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT devices can be used to detect ambient properties like soil moisture",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Which of these can cause problems for plant growth (pick one)?",
-						"answerOptions": [
-							{
-								"answerText": "Too little water",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Too much water",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Too little or too much water",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "All sensors are provided pre-calibrated for standard units:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 12,
-				"title": "Lesson 6 - Detect soil moisture: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "When measuring soil moisture, one difference between resistive and capacitive moisture sensors is:",
-						"answerOptions": [
-							{
-								"answerText": "As moisture levels go up the voltage goes up for resistive sensors and down for capacitive sensors",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "As moisture levels go up the voltage goes down for resistive sensors and up for capacitive sensors",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "As moisture levels go up the voltage goes up for both resistive and capacitive sensors",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "The SPI protocol supports:",
-						"answerOptions": [
-							{
-								"answerText": "Only one controller and only one peripheral",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Only one controller and multiple peripherals",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Multiple controllers and multiple peripherals",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "The I2C protocol supports:",
-						"answerOptions": [
-							{
-								"answerText": "Only one controller and only one peripheral",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Only one controller and multiple peripherals",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Multiple controllers and multiple peripherals",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 13,
-				"title": "Lesson 7 - Automated plant watering: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT devices are powerful enough to control water pumps",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Actuators can be used to control power to additional devices",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Sensors detect changes from actuators immediately",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 14,
-				"title": "Lesson 7 - Automated plant watering: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "A relay is what type of switch:",
-						"answerOptions": [
-							{
-								"answerText": "Electrical",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Electromechanical",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Mechanical",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "A relay allows:",
-						"answerOptions": [
-							{
-								"answerText": "A low power device to control a higher power device",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "A high power device to control a low power device",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Runners to run a race passing a baton between them",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Actuators should always respond instantly to sensor readings:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 15,
-				"title": "Lesson 8 - Migrate your plant to the cloud: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "A public MQTT broker is fine to use for a commercial IoT project",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Cloud computing allow you to:",
-						"answerOptions": [
-							{
-								"answerText": "Only rent computers",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Rent computers and application platforms only",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Rent computers, application platforms, software, serverless platforms and other services",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "There are multiple cloud vendors with data centers in many different countries across 6 continents",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 16,
-				"title": "Lesson 8 - Migrate your plant to the cloud: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "To request control of an actuator and get a response from an IoT device, app code can use a:",
-						"answerOptions": [
-							{
-								"answerText": "Device to cloud message",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Device twin",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Direct method request",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "IoT Hub lets any device connect without any security:",
-						"answerOptions": [
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "IoT Hub names must be unique:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 17,
-				"title": "Lesson 9 - Migrate your application logic to the cloud: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "You can use Serverless code to respond to IoT events",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "When you send IoT events to IoT Hub:",
-						"answerOptions": [
-							{
-								"answerText": "Only one service can read events off the IoT Hub",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Any number of services can read events off the IoT Hub",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Services cannot read events from IoT Hub, they have to connect to the device directly",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "When reading events off IoT hub, you can only do so using code that runs in the cloud",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 18,
-				"title": "Lesson 9 - Migrate your application logic to the cloud: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Azure Functions can be run and debugged locally:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Serverless code can only be written in JavaScript and COBOL:",
-						"answerOptions": [
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "When deploying a Functions App to the cloud, you need to create and deploy:",
-						"answerOptions": [
-							{
-								"answerText": "A Functions App only",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "A Functions App and a Storage Account only",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "A Functions App, a Storage Account, and Application Settings",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 19,
-				"title": "Lesson 10 - Keep your plant secure: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT devices are always secure",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "There are no documented cases of hackers using an IoT device to hack into a network:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "You can share your IoT device connection string with anyone",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 20,
-				"title": "Lesson 10 - Keep your plant secure: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Symmetric key encryption compares to asymmetric key encryption in which ways:",
-						"answerOptions": [
-							{
-								"answerText": "Symmetric key encryption is slower than asymmetric",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Symmetric key encryption is more secure than asymmetric",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Symmetric key encryption is faster than asymmetric, but less secure",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Symmetric key encryption is slower than asymmetric, but more secure",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Self-signed X.509 certificates are ideal for a production environment",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "X.509 certificates:",
-						"answerOptions": [
-							{
-								"answerText": "Should never be shared between IoT devices",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Can be shared between devices",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Should be kept secure and never used by any devices",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 21,
-				"title": "Lesson 11 - Location tracking: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Your location can be defined using",
-						"answerOptions": [
-							{
-								"answerText": "Latitude only",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Longitude only",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Latitude and Longitude",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "The types of sensors that can track your location are called:",
-						"answerOptions": [
-							{
-								"answerText": "GPS",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "PGP",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "GIF",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "There is no value in tracking vehicle locations",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 22,
-				"title": "Lesson 11 - Location tracking: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "GPS data is sent from sensors using:",
-						"answerOptions": [
-							{
-								"answerText": "Latitude and Longitude coordinates",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Addresses",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "NMEA sentences",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "To get a good GPS fix you need to receive signals from at least how many satellites",
-						"answerOptions": [
-							{
-								"answerText": "1",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "2",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "3",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "GPS sensors send data over:",
-						"answerOptions": [
-							{
-								"answerText": "SPI",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "UART",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Email",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 23,
-				"title": "Lesson 12 - Store location data: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT data is stored by IoT Hub",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Data can be divided into the following two types",
-						"answerOptions": [
-							{
-								"answerText": "Blob and table",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Structured and unstructured",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Red and blue",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Serverless code can be used to write IoT data to a database",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 24,
-				"title": "Lesson 12 - Store location data: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT data that needs to be processed immediately is on which path:",
-						"answerOptions": [
-							{
-								"answerText": "Hot",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Warm",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Cold",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Azure storage has the following storage types:",
-						"answerOptions": [
-							{
-								"answerText": "Boxes, tubs, bins",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Blob, table, queue and file",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Hot, warm, cold",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Azure Functions can be bound to database to write return values to the database",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 25,
-				"title": "Lesson 13 - Visualize location data: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Very large tables of data are an easy way to quickly look up data",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "GPS data can be visualized on maps",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "On maps of large areas, the same distance drawn on the map represents the same distance on the real world no matter where on the map the measurement is taken",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 26,
-				"title": "Lesson 13 - Visualize location data: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "The service to draw maps on a web page is called:",
-						"answerOptions": [
-							{
-								"answerText": "Azure Maps",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Azure Atlas",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Azure World VIsualizer",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Azure maps plots data using:",
-						"answerOptions": [
-							{
-								"answerText": "GeoJSON",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Lists of latitude and longitude",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Lists of addresses",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Blobs can be retrieved via a URL",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 27,
-				"title": "Lesson 14 - Geofences: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "GPS coordinates can be used to check if something is in a defined area",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "GPS is incredibly accurate so can indicate with precision of less than 1M when a device enters a given area",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Geofences are useful when tracking vehicles to:",
-						"answerOptions": [
-							{
-								"answerText": "Determine when a vehicle enters a given area only",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Determine when a vehicle leaves a given area only",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Determine when a vehicle enters or leaves a given area",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 28,
-				"title": "Lesson 14 - Geofences: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "To have multiple services pull data from an IoT Hub, you need to create multiple:",
-						"answerOptions": [
-							{
-								"answerText": "Consumer groups",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Pipes",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "IoT Hubs",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "The default search buffer for a geofence call is:",
-						"answerOptions": [
-							{
-								"answerText": "5m",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "50m",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "500m",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Points inside the geofence have a distance:",
-						"answerOptions": [
-							{
-								"answerText": "Less than 0 (a negative value)",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Greater than 0 (a positive value)",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 29,
-				"title": "Lesson 15 - Train a fruit quality detector: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Cameras can be used as IoT sensors",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Fruit can be sorted using cameras",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Images-based AI models are incredibly complex and time consuming to train, requiring hundreds of thousands of images:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 30,
-				"title": "Lesson 15 - Train a fruit quality detector: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "The technique custom vision uses to train a model with only a few images is called:",
-						"answerOptions": [
-							{
-								"answerText": "Transformational learning",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Transaction learning",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Transfer learning",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Image classifiers can be trained using:",
-						"answerOptions": [
-							{
-								"answerText": "Only 1 image per tag",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "At least 5 images per tag",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "At least 50 images per tag",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "The hardware that allows ML models to be trained quickly, as well as making the graphics on out Xbox look amazing are called:",
-						"answerOptions": [
-							{
-								"answerText": "PGU",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "GPU",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "PUG",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 31,
-				"title": "Lesson 16 - Check fruit quality from an IoT device: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT devices are not powerful enough to use cameras:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Camera sensors use film to capture images",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Camera sensors send which type of data",
-						"answerOptions": [
-							{
-								"answerText": "Digital",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Analog",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 32,
-				"title": "Lesson 16 - Check fruit quality from an IoT device: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "A published version of a custom vision model is called an:",
-						"answerOptions": [
-							{
-								"answerText": "Iteration",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Instance",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Iguana",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "When images are sent for classification, they then become available to retrain the model:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "You don't need to use images captured from an IoT device to train the model as the cameras are as good quality as phone cameras:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 33,
-				"title": "Lesson 17 - Run your fruit detector on the edge: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Edge computing can be more secure than cloud computing.",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Running an ML model on an edge device is less accurate than running an ML model in the cloud.",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Edge devices always need an Internet connection.",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 34,
-				"title": "Lesson 17 - Run your fruit detector on the edge: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "What kind of format or domain do we need for Custom Vision ML models to properly run on an edge device?",
-						"answerOptions": [
-							{
-								"answerText": "General",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Quick Training",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Standard",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Compact",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Food",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Remote Deployment",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "What is a container?",
-						"answerOptions": [
-							{
-								"answerText": "Self-contained applications that hold ML models.",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Self-contained applications that run in isolation from other programs.",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Self-contained applications that run programs only on edge devices.",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "self-contained applications that handle communication between the cloud and edge devices.",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "How do you do Custom Vision model retraining for ML models deployed on edge devices?",
-						"answerOptions": [
-							{
-								"answerText": "Take images on the edge device, save to the edge device, and point the ML model to the new image folder.",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Upload images from the edge device to the cloud, retrain the model in Custom Vision, then re-deploy onto the edge device.",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Take images on the edge device and check the prediction output.",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 35,
-				"title": "Lesson 18 - Trigger fruit quality detection from a sensor: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Which part of your IoT application gathers data?",
-						"answerOptions": [
-							{
-								"answerText": "Things",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Cloud services",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Edge devices",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "The only outputs of an IoT application are actuators.",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Things don't need to connect directly to IoT Hub, they can use edge devices as gateways.",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 36,
-				"title": "Lesson 18 - Trigger fruit quality detection from a sensor: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "The three components of architecting an IoT application are",
-						"answerOptions": [
-							{
-								"answerText": "Things, Insights, Actions",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Things, Internet, Databases",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "AI, Blockchain, FizzBuzzers",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "The component that communicates between the things and the components that create insights is:",
-						"answerOptions": [
-							{
-								"answerText": "Azure Functions",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "IoT Hub",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Azure Maps",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "How do time of flight proximity sensors work?",
-						"answerOptions": [
-							{
-								"answerText": "They send laser beams and time how long till they bounce off an object",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "They use sound and measure how long till the sound bounces off an object",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "They use very large rulers",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 37,
-				"title": "Lesson 19 - Train a stock detector: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "AI models cannot be used to count objects?",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "IoT and AI can be used in retail for:",
-						"answerOptions": [
-							{
-								"answerText": "Stock checking only",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "A wide range of uses including stock checking, monitoring for mask where where required, tracking footfall, automated billing",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "IoT and AI cannot be used in retail",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Object detection involves:",
-						"answerOptions": [
-							{
-								"answerText": "Detecting objects in an image and tracking their location and probability",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Counting objects in an image only",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Classifying images",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 38,
-				"title": "Lesson 19 - Train a stock detector: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Object detectors only return one result no matter how many objects are detected",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "What is the best domain to use in Custom Vision for stock counting",
-						"answerOptions": [
-							{
-								"answerText": "General",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Food",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Products on shelves",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "At least how many images do you need to train an object detector?",
-						"answerOptions": [
-							{
-								"answerText": "1",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "15",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "100",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 39,
-				"title": "Lesson 20 - Check stock from an IoT device: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT devices are not powerful enough to use object detectors",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Object detectors give you:",
-						"answerOptions": [
-							{
-								"answerText": "The count of objects detected",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "The count and location of objects detected",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "The count, location and probability of objects detected",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Object detectors can be used to detect where missing stock should be to allow robots to automatically stock shelves",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 40,
-				"title": "Lesson 20 - Check stock from an IoT device: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "To count stock you only need to consider the count of objects detected by the object detector",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Bounding boxes use:",
-						"answerOptions": [
-							{
-								"answerText": "Percentage based coordinates",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Pixel based coordinates",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Centimeter based coordinates",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Can detected objects overlap?",
-						"answerOptions": [
-							{
-								"answerText": "Yes",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "No",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 41,
-				"title": "Lesson 21 - Recognize speech with an IoT device: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "IoT devices can be used to recognize speech:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Voice assistants should send all the audio they hear to the cloud for processing:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "To recognize speech, IoT devices need large microphones:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 42,
-				"title": "Lesson 21 - Recognize speech with an IoT device: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Microphones are what type of sensor?",
-						"answerOptions": [
-							{
-								"answerText": "Digital",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Analog",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Sound waves are converted to digital signals using:",
-						"answerOptions": [
-							{
-								"answerText": "Pulse Code Modulation",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Pure Code Multiplication",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Pulse Width Maximization",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "1 second of 16-bit audio sampled at 16KHz is how large?",
-						"answerOptions": [
-							{
-								"answerText": "1KB",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "16KB",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "32KB",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 43,
-				"title": "Lesson 22 - Understand language: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Language understanding involves looking for fixed words:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Language understanding involves:",
-						"answerOptions": [
-							{
-								"answerText": "Looking at the individual words in a sentence and trying to get the meaning",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Finding pre-defined sentences and using those to get the meaning",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Looking at the whole sentence and trying to get the meaning using the context of the words",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "Cloud providers have AI services that can understand language:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 44,
-				"title": "Lesson 22 - Understand language: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Sentences are understood by being broken down into:",
-						"answerOptions": [
-							{
-								"answerText": "Ideas and explanations",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Intents and entities",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Imps and elves",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "The Microsoft service for language understanding is called:",
-						"answerOptions": [
-							{
-								"answerText": "LUIS",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Luigi",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Jarvis",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "In the sentence 'set a 3 minute timer' the:",
-						"answerOptions": [
-							{
-								"answerText": "The intent is 3 minutes and the entity is a timer",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "The intent is minutes, and the entity is 3 timers",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "The intent is set a timer and the entity is 3 minutes",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 45,
-				"title": "Lesson 23 - Set a timer and provide spoken feedback: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Speech generated by AI models sounds monotonous and robotic",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "AI models can only create speech in American English:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "AI models would convert 1234 into which spoken phrase:",
-						"answerOptions": [
-							{
-								"answerText": "One two three four",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "One thousand two hundred and thirty four",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "It can be 'one two three four' or 'one thousand two hundred and thirty four' depending on the context",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 46,
-				"title": "Lesson 23 - Set a timer and provide spoken feedback: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "The three parts of speech generation are:",
-						"answerOptions": [
-							{
-								"answerText": "Text analysis, understanding analysis, sound generation",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Text analysis, linguistic analysis, wave form generation",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Word analysis, audio production",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "Can speech generation models be trained to sound like existing people:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "The markup language used to encode speech is called:",
-						"answerOptions": [
-							{
-								"answerText": "SSML",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "MSSL",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "SpeechXML",
-								"isCorrect": "false"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 47,
-				"title": "Lesson 24 - Support multiple languages: Pre-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Language understanding only understands English:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					},
-					{
-						"questionText": "AI speech to text models understand multiple languages:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "AI translation involves swapping individual words for their translated version:",
-						"answerOptions": [
-							{
-								"answerText": "True",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "False",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": 48,
-				"title": "Lesson 24 - Support multiple languages: Post-Lecture Quiz",
-				"quiz": [
-					{
-						"questionText": "Machine translation has been researched for nearly:",
-						"answerOptions": [
-							{
-								"answerText": "70 years",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "17 years",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "7 years",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "AI language translators are called:",
-						"answerOptions": [
-							{
-								"answerText": "Noddy translators",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Neural translators",
-								"isCorrect": "true"
-							},
-							{
-								"answerText": "Nothing - AI cannot be used for translation",
-								"isCorrect": "false"
-							}
-						]
-					},
-					{
-						"questionText": "What alien languages does the Microsoft translator support:",
-						"answerOptions": [
-							{
-								"answerText": "Na'vi",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Alienese",
-								"isCorrect": "false"
-							},
-							{
-								"answerText": "Klingon",
-								"isCorrect": "true"
-							}
-						]
-					}
-				]
-			}
-		]
+	   "title":"Desenvolvimento de IoT para iniciantes: Quizzes",
+	   "complete":"Parabéns, você completou o quiz!",
+	   "error":"Desculpe, tente novamente",
+	   "testes":[
+		  {
+			 "id":"1",
+			 "title":"Lição 1 - Introdução à IoT: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"O I em IoT significa:",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"Internet",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Iridium (Irídio)",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Engomar (Engomador)",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Qual é o número estimado de dispositivos IoT em uso até o final de 2020?",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"30",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"30 milhões",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"30 bilhões",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Smartphones são dispositivos IoT",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":2,
+			 "title":"Lição 1 - Introdução à IoT: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Dispositivos IoT precisam estar conectados à Internet o tempo todo",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Dispositivos IoT estão sempre seguros",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"A IA pode ser executada em dispositivos IoT de baixa potência",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":3,
+			 "title":"Lição 2 - Um mergulho mais profundo na IoT: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"O T em IoT significa:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Transistores (Transistors)",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Coisas (Things)",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Perus (Turkeys)",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os dispositivos IoT coletam informações do mundo ao seu redor usando:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Sensores (Sensors)",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Atuadores (Actuators)",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Pombos-correio (Carrier pigeons)",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Dispositivos IoT consomem mais energia do que um desktop ou notebook comum",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":4,
+			 "title":"Lição 2 - Um mergulho mais profundo na IoT: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"As três etapas em um ciclo de instrução da CPU são:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Decode, Execute, Fetch (Decodificar, Executar, Buscar)",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Fetch, Decode, Execute (Buscar, Decodificar, Executar)",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Stop, Collaborate, Listen (Parar, Colaborar, Ouvir)",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Qual sistema operacional as Raspberry Pis executam?",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Elas não executam um sistema operacional",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"Windows 95",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Raspberry Pi OS",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os dispositivos IoT geralmente funcionam mais rápido e têm mais memória do que um desktop ou notebook comum",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":5,
+			 "title":"Lição 3 - Interagir com o mundo físico com sensores e atuadores: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Um LED é um sensor:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os sensores são usados ​​para:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Reunir dados do mundo físico.",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Controlar o mundo físico.",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Apenas para monitorar a temperatura.",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Atuadores são usados ​​para:",
+				   "opções de resposta":[
+					{
+					   "answerText":"Reunir dados do mundo físico.",
+					   "isCorrect":"true"
+					},
+					{
+					   "answerText":"Controlar o mundo físico.",
+					   "isCorrect":"false"
+					},	
+					  {
+						 "answerText":"Para calcular riscos de seguro.",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":6,
+			 "title":"Lição 3 - Interagir com o mundo físico com sensores e atuadores: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Sensores digitais enviam dados como:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Faixas de tensão",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Tensões altas e baixas",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"E-mails",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Qual sinal digital é enviado quando um botão é pressionado?",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"0",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"1",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Você pode controlar atuadores analógicos de um dispositivo digital usando modulação por largura de pulso",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":7,
+			 "title":"Lição 4 - Conecte seu dispositivo à Internet: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Dispositivos IoT sempre precisam estar conectados à Internet para funcionar:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Dispositivos IoT sempre se comunicam por HTTP, o mesmo que aplicativos web e outras APIs web:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os dispositivos IoT dependem da nuvem para todas as tomadas de decisão:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":8,
+			 "title":"Lição 4 - Conecte seu dispositivo à Internet: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Os dados coletados dos sensores e enviados para a nuvem são chamados de:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Telemetria",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Comandos",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Medidas",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O que deve acontecer com um comando se o dispositivo IoT estiver offline:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Sempre reenviar quando o dispositivo estiver novamente online",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Nunca reenviar quando o dispositivo estiver novamente online",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Depende do comando, do dispositivo e dos requisitos do aplicativo IoT",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"MQTT, ou Message Queuing Telemetry Transport, tem filas de mensagens:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":9,
+			 "title":"Lição 5 - Prever o crescimento das plantas: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Os dispositivos IoT podem ser usados ​​para apoiar a agricultura",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"As necessidades da planta incluem: (escolha a melhor resposta)",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Dióxido de carbono, água, nutrientes",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Dióxido de carbono, água, nutrientes, luz",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Dióxido de carbono, água, nutrientes, luz, calor",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os sensores são muito caros para serem usados ​​pelos agricultores nos países desenvolvidos:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":10,
+			 "title":"Lição 5 - Prever o crescimento das plantas: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"O crescimento da planta depende da temperatura",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"As temperaturas a considerar para o crescimento das plantas são:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Mínimo, máximo",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Base, ideal, máximo",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Apenas máximo",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Graus-dia de Crescimento (Growing Degree Days - GDD) são calculados usando a fórmula:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"(dia máximo + dia mínimo) - base da planta",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"((dia máximo + dia mínimo) / 2) - base da planta",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"((dia mínimo + base da planta) / 2)",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":11,
+			 "title":"Lição 6 - Detectar umidade do solo: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Dispositivos IoT podem ser usados ​​para detectar propriedades ambientais como a umidade do solo",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Qual destes pode causar problemas para o crescimento da planta (escolha um)?",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Pouca água",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Muita água",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Pouca ou muita água",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Todos os sensores são fornecidos pré-calibrados para unidades padrão:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":12,
+			 "title":"Lição 6 - Detectar umidade do solo: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Ao medir a umidade do solo, uma diferença entre sensores de umidade resistivos e capacitivos é:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Conforme os níveis de umidade aumentam, a voltagem sobe para sensores resistivos e diminui para sensores capacitivos",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"À medida que os níveis de umidade aumentam, a voltagem diminui para sensores resistivos e aumenta para sensores capacitivos",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"À medida que os níveis de umidade aumentam, a voltagem aumenta para os sensores resistivos e capacitivos",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O protocolo SPI suporta:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Apenas um controlador e apenas um periférico",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Apenas um controlador e vários periféricos",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Vários controladores e vários periféricos",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O protocolo I2C suporta:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Apenas um controlador e apenas um periférico",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Apenas um controlador e vários periféricos",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Vários controladores e vários periféricos",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":13,
+			 "title":"Lição 7 - Rega automatizada de plantas: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Dispositivos IoT são poderosos o suficiente para controlar bombas de água",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Atuadores podem ser usados ​​para controlar a energia de dispositivos adicionais",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Sensores detectam mudanças de atuadores imediatamente",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":14,
+			 "title":"Lição 7 - Rega automatizada de plantas: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Um relé é o tipo de chave:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Elétrica",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Eletromecânica",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mecânica",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Um relé permite:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Um dispositivo de baixa potência controlar um dispositivo de maior potência",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Um dispositivo de alta potência controlar um dispositivo de baixa potência",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Corredores querem correr passando um bastão entre eles",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os atuadores devem sempre responder instantaneamente às leituras do sensor:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":15,
+			 "title":"Lição 8 - Migre sua planta para a nuvem: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Um broker MQTT público é bom para usar em um projeto comercial de IoT",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"A computação em nuvem permite que você:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Alugue computadores",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Alugar computadores e plataformas de aplicativos",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Alugar computadores, plataformas de aplicativos, software, plataformas sem servidor e outros serviços",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Existem vários fornecedores de nuvem com data centers em muitos países diferentes em 6 continentes",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":16,
+			 "title":"Lição 8 - Migre sua planta para a nuvem: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Para solicitar o controle de um atuador e obter uma resposta de um dispositivo IoT, o código do aplicativo pode usar um:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Dispositivo para mensagem na nuvem",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Dispositivo duplo",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Solicitação de método direto",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"IoT Hub permite que qualquer dispositivo se conecte sem nenhuma segurança:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os nomes do IoT Hub devem ser exclusivos:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":17,
+			 "title":"Lição 9 - Migre a lógica da sua aplicação para a nuvem: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Você pode usar código Serverless para responder a eventos IoT",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Quando você envia eventos IoT para IoT Hub:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Apenas um serviço pode ler eventos do IoT Hub",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Qualquer número de serviços pode ler eventos do IoT Hub",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Os serviços não podem ler eventos do IoT Hub, eles precisam se conectar diretamente ao dispositivo",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Ao ler eventos fora do IoT Hub, você só pode fazer isso usando código executado na nuvem",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":18,
+			 "title":"Lição 9 - Migre a lógica da sua aplicação para a nuvem: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"As funções do Azure podem ser executadas e depuradas localmente:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O código sem servidor só pode ser escrito em JavaScript e COBOL:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Ao implantar um aplicativo de funções na nuvem, você precisa criar e implantar:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Somente um aplicativo de funções",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Somente um aplicativo de funções e uma conta de armazenamento",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Um aplicativo de funções, uma conta de armazenamento e configurações do aplicativo",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":19,
+			 "title":"Lição 10 - Mantenha sua planta segura: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Dispositivos IoT são sempre seguros",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Não há casos documentados de hackers usando um dispositivo IoT para invadir uma rede:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Você pode compartilhar sua string de conexão do dispositivo IoT com qualquer pessoa",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":20,
+			 "title":"Lição 10 - Mantenha sua planta segura: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"A criptografia de chave simétrica se compara à criptografia de chave assimétrica em que aspectos:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"A criptografia de chave simétrica é mais lenta que a assimétrica",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"A criptografia de chave simétrica é mais segura que a assimétrica",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"A criptografia de chave simétrica é mais rápida que a assimétrica, mas menos segura",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"A criptografia de chave simétrica é mais lenta que a assimétrica, mas mais segura",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Certificados X.509 autoassinados são ideais para um ambiente de produção",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Certificados X.509:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Nunca deve ser compartilhado entre dispositivos IoT",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Pode ser compartilhado entre dispositivos",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Deve ser mantido em segurança e nunca usado por nenhum dispositivo",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":21,
+			 "title":"Lição 11 - Rastreamento de localização: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Sua localização pode ser definida usando",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Apenas latitude",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Apenas longitude",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Latitude e Longitude",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os tipos de sensores que podem rastrear sua localização são chamados:",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"GPS",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "respostaTexto":"PGP",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"GIF",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Não há valor em rastrear a localização dos veículos",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":22,
+			 "title":"Lição 11 - Rastreamento de localização: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Os dados do GPS são enviados dos sensores usando:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Coordenadas de latitude e longitude",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Endereços",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Sentenças NMEA",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Para obter um bom ponto de GPS, você precisa receber sinais de pelo menos quantos satélites",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"1",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"2",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"3",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Sensores GPS enviam dados por:",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"SPI",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"UART",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"E-mail",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":23,
+			 "title":"Lição 12 - Armazenar dados de localização: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Os dados IoT são armazenados pelo IoT Hub",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os dados podem ser divididos nos dois tipos a seguir",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Blob e tabela",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Estruturado e não estruturado",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Vermelho e azul",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Código sem servidor pode ser usado para gravar dados de IoT em um banco de dados",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":24,
+			 "title":"Lição 12 - Armazenar dados de localização: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Os dados de IoT que precisam ser processados ​​imediatamente estão em qual caminho:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Quente",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Morno",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Frio",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O armazenamento do Azure tem os seguintes tipos de armazenamento:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Caixas, banheiras, lixeiras",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Blob, tabela, fila e arquivo",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Quente, morno, frio",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"As funções do Azure podem ser vinculadas ao banco de dados para gravar valores de retorno no banco de dados",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":25,
+			 "title":"Lição 13 - Visualizar dados de localização: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Tabelas de dados muito grandes são uma maneira fácil de pesquisar dados rapidamente",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os dados do GPS podem ser visualizados nos mapas",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Em mapas de grandes áreas, a mesma distância desenhada no mapa representa a mesma distância no mundo real, não importa onde no mapa a medição é feita",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":26,
+			 "title":"Lição 13 - Visualizar dados de localização: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"O serviço para desenhar mapas em uma página da web é chamado:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Mapas do Azure",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Atlas do Azure",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Azure World Visualizer",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os mapas do Azure plotam dados usando:",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"GeoJSON",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Listas de latitude e longitude",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Listas de endereços",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Blobs podem ser recuperados por meio de um URL",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":27,
+			 "title":"Lição 14 - Geofences: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Coordenadas GPS podem ser usadas para verificar se algo está em uma área definida",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O GPS é incrivelmente preciso, portanto pode indicar com precisão inferior a 1M quando um dispositivo entra em uma determinada área",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Geofences são úteis ao rastrear veículos para:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Determinar quando um veículo entra apenas em uma determinada área",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Determinar quando um veículo deixa apenas uma determinada área",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Determinar quando um veículo entra ou sai de uma determinada área",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":28,
+			 "title":"Lição 14 - Geofences: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Para que vários serviços extraiam dados de um IoT Hub, você precisa criar vários:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Grupos de consumidores",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Pipes",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"IoT Hubs",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O buffer de pesquisa padrão para uma chamada de cerca geográfica é:",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"5m",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"50m",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "respostaTexto":"500m",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os pontos dentro da cerca geográfica têm uma distância:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Menor que 0 (um valor negativo)",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Maior que 0 (um valor positivo)",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":29,
+			 "title":"Lição 15 - Treinar um detector de fruta de qualidade: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Câmeras podem ser usadas como sensores IoT",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Frutas podem ser classificadas usando câmeras",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Modelos de IA baseados em imagens são incrivelmente complexos e demorados para treinar, exigindo centenas de milhares de imagens:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":"30",
+			 "title":"Lição 15 - Treinar um detector de fruta de qualidade: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"A técnica que a visão personalizada usa para treinar um modelo com apenas algumas imagens é chamada:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Aprendizado transformacional",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Aprendizado por transação",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Transferência de aprendizagem",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Classificadores de imagem podem ser treinados usando:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Apenas 1 imagem por rótulo",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Pelo menos 5 imagens por rótulo",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Pelo menos 50 imagens por rótulo",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O hardware que permite que os modelos de ML sejam treinados rapidamente, além de tornar os gráficos do Xbox incríveis, chama-se:",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"PGU",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"GPU",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "respostaTexto":"PUG",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":31,
+			 "title":"Lição 16 - Verificar a qualidade da fruta a partir de um dispositivo IoT: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Dispositivos IoT não são poderosos o suficiente para usar câmeras:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Sensores de câmera usam filme para capturar imagens",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os sensores da câmera enviam qual tipo de dados",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"Digital",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Analógico",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":32,
+			 "title":"Lição 16 - Verificar a qualidade da fruta a partir de um dispositivo IoT: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Uma versão publicada de um modelo de visão personalizada é chamada de:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Iteração",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Instância",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Iguana",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Quando as imagens são enviadas para classificação, elas ficam disponíveis para retreinar o modelo:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Você não precisa usar imagens capturadas de um dispositivo IoT para treinar o modelo, pois as câmeras são tão boas quanto as câmeras do telefone:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":33,
+			 "title":"Lição 17 - Passe seu detector de frutas na borda: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"A computação de borda pode ser mais segura do que a computação em nuvem.",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Executar um modelo de ML em um dispositivo de borda é menos preciso do que executar um modelo de ML na nuvem.",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Dispositivos de borda sempre precisam de uma conexão com a Internet.",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":34,
+			 "title":"Lição 17 - Passe seu detector de frutas na borda: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Que tipo de formato ou domínio precisamos para que os modelos Custom Vision ML sejam executados corretamente em um dispositivo de ponta?",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Geral",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Treinamento Rápido",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Padrão",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"Compacto",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Comida",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Implantação Remota",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O que é um container?",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Aplicativos independentes que contêm modelos de ML.",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Aplicativos independentes que são executados isoladamente de outros programas.",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Aplicativos independentes que executam programas apenas em dispositivos de ponta.",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Aplicativos independentes que lidam com a comunicação entre a nuvem e os dispositivos de ponta.",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Como você faz o retreinamento do modelo de visão personalizada para modelos de ML implantados em dispositivos periféricos?",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Pegue imagens no dispositivo de borda, salve nele e aponte o modelo de ML para a nova pasta de imagens.",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Faça upload de imagens do dispositivo de borda para a nuvem, treine novamente o modelo no Custom Vision e, em seguida, implante-o novamente no dispositivo.",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Tire imagens no dispositivo de borda e verifique a saída de previsão.",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":35,
+			 "title":"Lição 18 - Acionar a detecção da qualidade da fruta a partir de um sensor: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Qual parte do seu aplicativo IoT coleta dados?",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Coisas",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Serviços em nuvem",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Dispositivos periféricos",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"As únicas saídas de um aplicativo IoT são atuadores.",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"As coisas não precisam se conectar diretamente ao IoT Hub, elas podem usar dispositivos de ponta como gateways.",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":36,
+			 "title":"Lição 18 - Acionar a detecção da qualidade da fruta a partir de um sensor: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Os três componentes da arquitetura de um aplicativo IoT são",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Coisas, Insights, Ações",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Coisas, Internet, Bancos de Dados",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"IA, Blockchain, FizzBuzzers",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O componente que se comunica entre as coisas e os componentes que criam insights é:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Funções do Azure",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"IoT Hub",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mapas do Azure",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Como funcionam os sensores de proximidade de tempo de voo?",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Eles enviam lasers e cronometram quanto tempo até que ricocheteem em um objeto",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Eles usam som e medem quanto tempo até o som ricochetear em um objeto",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Eles usam réguas muito grandes",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":37,
+			 "title":"Lição 19 - Treine um detector de ações: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Modelos de IA não podem ser usados ​​para contar objetos",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"IoT e IA podem ser usados ​​no varejo para:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Apenas verificação de estoque",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Uma ampla gama de usos, incluindo verificação de estoque, monitoramento de máscara onde necessário, rastreamento de tráfego, faturamento automatizado",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"IoT e AI não podem ser usados ​​no varejo",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"A detecção de objetos envolve:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Detectando objetos em uma imagem e rastreando sua localização e probabilidade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Contando objetos apenas em uma imagem",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Classificando imagens",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":38,
+			 "title":"Lição 19 - Treinar um detector de ações: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Os detectores de objetos retornam apenas um resultado, não importa quantos objetos sejam detectados",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Qual é o melhor domínio para usar no Custom Vision para contagem de estoque",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Geral",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Comida",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Produtos nas prateleiras",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Pelo menos quantas imagens você precisa para treinar um detector de objetos?",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"1",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"15",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "respostaTexto":"100",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":39,
+			 "title":"Lição 20 - Consultar estoque a partir de um dispositivo IoT: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Dispositivos IoT não são poderosos o suficiente para usar detectores de objetos",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os detectores de objetos fornecem:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"A contagem de objetos detectados",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"A contagem e localização de objetos detectados",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"A contagem, localização e probabilidade de objetos detectados",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os detectores de objetos podem ser usados ​​para detectar onde deve estar o estoque em falta para permitir que os robôs reabasteçam as prateleiras automaticamente",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":40,
+			 "title":"Lição 20 - Consultar estoque a partir de um dispositivo IoT: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Para contagem de estoque basta considerar a contagem de objetos detectados pelo detector de objetos",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Caixas delimitadoras usam:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Coordenadas baseadas em porcentagem",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Coordenadas baseadas em pixels",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Coordenadas baseadas em centímetros",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os objetos detectados podem se sobrepor?",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"Sim",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "respostaTexto":"Não",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":41,
+			 "title":"Lição 21 - Reconhecer fala com um dispositivo IoT: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"Os dispositivos IoT podem ser usados ​​para reconhecer a fala:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os assistentes de voz devem enviar todo o áudio que ouvem para a nuvem para processamento:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Para reconhecer a fala, os dispositivos IoT precisam de microfones grandes:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":42,
+			 "title":"Lição 21 - Reconhecer a fala com um dispositivo IoT: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"Que tipo de sensor são os microfones?",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"Digital",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Analógico",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"As ondas sonoras são convertidas em sinais digitais usando:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Modulação de código de pulso",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Multiplicação de código puro",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Maximização da largura de pulso",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Qual é o tamanho de 1 segundo de áudio de 16 bits amostrado a 16KHz?",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"1KB",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"16KB",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"32KB",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":43,
+			 "title":"Lição 22 - Compreender a linguagem: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"A compreensão do idioma envolve procurar palavras fixas:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"A compreensão da linguagem envolve:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Olhando para as palavras individuais em uma frase e tentando entender o significado",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Encontrando frases predefinidas e usando-as para obter o significado",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Olhando para a frase inteira e tentando entender o significado usando o contexto das palavras",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os provedores de nuvem têm serviços de IA que podem entender o idioma:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":44,
+			 "title":"Lição 22 - Compreender a linguagem: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"As frases são compreendidas ao serem divididas em:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Ideias e explicações",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Intenções e entidades",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Imps e elfos",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"O serviço da Microsoft para compreensão de idiomas é chamado:",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"LUIS",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Luigi",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Jarvis",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Na frase 'definir um cronômetro de 3 minutos':",
+				   "opções de resposta":[
+					  {
+						 "answerText":"A intenção é de 3 minutos e a entidade é um cronômetro",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"A intenção é minutos e a entidade é 3 temporizadores",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"A intenção é definir um cronômetro e a entidade é de 3 minutos",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":45,
+			 "title":"Lição 23 - Defina um cronômetro e forneça feedback falado: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"A fala gerada por modelos de IA soa monótona e robótica",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Modelos de IA só podem criar fala em inglês americano:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Modelos de IA converteriam 1234 em qual frase falada:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Um dois três quatro",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mil duzentos e trinta e quatro",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Pode ser 'um dois três quatro' ou 'um mil duzentos e trinta e quatro' dependendo do contexto",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":46,
+			 "title":"Lição 23 - Definir um cronômetro e fornecer feedback falado: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"As três partes da geração da fala são:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Análise de texto, análise de compreensão, geração de som",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Análise de texto, análise linguística, geração de forma de onda",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Análise de palavras, produção de áudio",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Os modelos de geração de fala podem ser treinados para soar como pessoas reais:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"A linguagem de marcação usada para codificar a fala é chamada:",
+				   "opções de resposta":[
+					  {
+						 "respostaTexto":"SSML",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "respostaTexto":"MSSL",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"SpeechXML",
+						 "isCorrect":"false"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":47,
+			 "title":"Lição 24 - Suporte a vários idiomas: Quiz pré-aula",
+			 "questionário":[
+				{
+				   "questionText":"A compreensão do idioma só suporta o inglês:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Modelos AI de fala para texto entendem vários idiomas:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Tradução usando IA envolve a troca de palavras individuais por sua versão traduzida:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Verdade",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Mentira",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  },
+		  {
+			 "id":48,
+			 "title":"Lição 24 - Suporte a vários idiomas: Quiz pós-aula",
+			 "questionário":[
+				{
+				   "questionText":"A tradução automática foi pesquisada por quase:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"70 anos",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "respostaTexto":"17 anos",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "respostaTexto":"7 anos",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"AIs tradutores são chamados:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Tradutores Noddy",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Tradutores neurais",
+						 "isCorrect":"true"
+					  },
+					  {
+						 "answerText":"Nada - IA não pode ser usada para tradução",
+						 "isCorrect":"false"
+					  }
+				   ]
+				},
+				{
+				   "questionText":"Quais idiomas alienígenas o tradutor da Microsoft suporta:",
+				   "opções de resposta":[
+					  {
+						 "answerText":"Na'vi",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Alienense",
+						 "isCorrect":"false"
+					  },
+					  {
+						 "answerText":"Klingon",
+						 "isCorrect":"true"
+					  }
+				   ]
+				}
+			 ]
+		  }
+	   ]
 	}
-]
+ ]

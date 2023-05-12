@@ -15,10 +15,10 @@ As plantas precisam de certas coisas para crescer - água, dióxido de carbono, 
 Nesta lição abordaremos:
 
 * [Agricultura digital](#agricultura-digital)
-* [Por que a temperatura é importante na agricultura?](#por-que-a-temperatura-é-importante-na-agricultura?)
+* [Por que a temperatura é importante na agricultura?](#por-que-a-temperatura-é-importante-na-agricultura)
 * [Medir a temperatura ambiente](#medir-a-temperatura-ambiente)
 * [Graus-dias crescentes (GDD)](#graus-dias-crescentes)
-* [Calcular GDD usando dados do sensor de temperatura](#calculate-gdd-using-temperature-sensor-data)
+* [Calcular GDD usando dados do sensor de temperatura](#calcular-gdd-usando-dados-do-sensor-de-temperatura)
 
 ## Agricultura Digital 
 
@@ -42,7 +42,7 @@ Algumas técnicas habilitadas pela agricultura digital são:
 
 Ao aprender sobre plantas, a maioria dos alunos é ensinada sobre a necessidade de água, luz, dióxido de carbono (CO<sub>2</sub>) e nutrientes. As plantas também precisam de calor para crescer - é por isso que as plantas florescem na primavera à medida que a temperatura aumenta, por que os flocos de neve ou narcisos podem brotar cedo devido a um curto período de calor e por que as estufas e estufas são tão boas para fazer as plantas crescerem.
 
-> 🎓 Estufas e estufas fazem um trabalho semelhante, mas com uma diferença importante. As estufas são aquecidas artificialmente e permitem que os agricultores controlem as temperaturas com mais precisão, as estufas dependem do sol para se aquecer e geralmente o único controle são as janelas ou outras aberturas para deixar o calor sair.
+> 🎓 _Hothouses_ e _Greenhouses_ (tipos de estufas) fazem um trabalho semelhante, mas com uma diferença importante. As estufas são aquecidas artificialmente e permitem que os agricultores controlem as temperaturas com mais precisão, as estufas dependem do sol para se aquecer e geralmente o único controle são as janelas ou outras aberturas para deixar o calor sair.
 
 As plantas têm uma temperatura base ou mínima, temperatura ótima e temperatura máxima, todas baseadas nas temperaturas médias diárias.
 
@@ -126,9 +126,9 @@ O milho recebeu 4 GDD naquele dia. Assumindo uma variedade de milho que precisa 
 
 ## Calcular GDD usando dados do sensor de temperatura
 
-As plantas não crescem em datas fixas - por exemplo, você não pode plantar uma semente e saber que a planta dará frutos exatamente 100 dias depois. Em vez disso, como agricultor, você pode ter uma ideia aproximada de quanto tempo uma planta leva para crescer, então você verificaria diariamente para ver quando as colheitas estavam prontas.
+As plantas não crescem em datas fixas - por exemplo, você não pode plantar uma semente e saber que a planta dará frutos exatamente 100 dias depois. Em vez disso, como agricultor, você pode ter uma ideia aproximada de quanto tempo uma planta leva para crescer, então você verificaria diariamente para ver quando as colheitas estarão prontas.
 
-Isso tem um enorme impacto trabalhista em uma grande fazenda e corre o risco de o agricultor perder colheitas que estão prontas inesperadamente cedo. Ao medir as temperaturas, o agricultor pode calcular o GDD que uma planta recebeu, permitindo que ele verifique apenas próximo à maturidade esperada.
+Isso pode dar muito trabalho em uma fazenda grande e ainda corre o risco de o agricultor perder colheitas que estão prontas inesperadamente cedo. Ao medir as temperaturas, o agricultor pode calcular o GDD que uma planta recebeu, permitindo que ele verifique apenas próximo à maturidade esperada.
 
 Ao coletar dados de temperatura usando um dispositivo IoT, um agricultor pode ser notificado automaticamente quando as plantas estiverem próximas da maturidade. Uma arquitetura típica para isso é fazer com que os dispositivos IoT meçam a temperatura e, em seguida, publiquem esses dados de telemetria pela Internet usando algo como MQTT. O código do servidor então escuta esses dados e os salva em algum lugar, como em um banco de dados. Isso significa que os dados podem ser analisados ​​posteriormente, como um trabalho noturno para calcular o GDD do dia, totalizar o GDD para cada safra até o momento e alertar se uma planta estiver próxima da maturidade.
 

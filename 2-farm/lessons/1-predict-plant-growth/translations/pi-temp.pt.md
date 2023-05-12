@@ -6,7 +6,7 @@ Nesta parte da lição, você adicionará um sensor de temperatura ao seu Raspbe
 
 O sensor que você usará é um [sensor de umidade e temperatura DHT11](https://www.seeedstudio.com/Grove-Temperature-Humidity-Sensor-DHT11.html), combinando 2 sensores em um pacote. Isso é bastante popular, com vários sensores comercialmente disponíveis combinando temperatura, umidade e, às vezes, pressão atmosférica. O componente do sensor de temperatura é um termistor de coeficiente de temperatura negativo (NTC), um termistor onde a resistência diminui à medida que a temperatura aumenta.
 
-This is a digital sensor, so has an onboard ADC to create a digital signal containing the temperature and humidity data that the microcontroller can read.
+Este sensor é digital, portanto, possui um ADC integrado para criar um sinal digital contendo os dados de temperatura e umidade que o microcontrolador pode ler.
 
 ### Conecte o sensor de temperatura
 
@@ -18,9 +18,9 @@ Conecte o sensor de temperatura
 
 ![Um sensor de temperatura groove](../../../../images/grove-dht11.png)
 
-1. Insira uma extremidade de um cabo Grove no soquete do sensor de umidade e temperatura. Só vai dar uma volta.
+1. Insira uma extremidade de um cabo Grove no soquete do sensor de umidade e temperatura. Só tem uma via.
 
-1. Com o Raspberry Pi desligado, conecte a outra extremidade do cabo Grove ao soquete digital marcado como **D5** no chapéu Grove Base conectado ao Pi. Este soquete é o segundo da esquerda, na fileira de soquetes ao lado dos pinos GPIO.
+1. Com o Raspberry Pi desligado, conecte a outra extremidade do cabo Grove ao soquete digital marcado como **D5** no _Grove Base Hat_ conectado ao Pi. Este soquete é o segundo da esquerda, na fileira de soquetes ao lado dos pinos GPIO.
 
 ![O sensor de temperatura Grove conectado ao soquete A0](../../../../images/pi-temperature-sensor.png)
 
@@ -69,7 +69,7 @@ Programe o dispositivo.
     sensor = DHT("11", 5)
     ```
 
-    Isso declara uma instância da classe `DHT` que gerencia o sensor de **D**igital **H**umidade e **T** de temperatura. O primeiro parâmetro informa ao código que o sensor que está sendo usado é o sensor *DHT11* - a biblioteca que você está usando suporta outras variantes desse sensor. O segundo parâmetro informa ao código que o sensor está conectado à porta digital `D5` no chapéu base Grove.
+    Isso declara uma instância da classe `DHT` que gerencia o sensor de **D**igital **H**umidade e **T** de temperatura. O primeiro parâmetro informa ao código que o sensor que está sendo usado é o sensor *DHT11* - a biblioteca que você está usando suporta outras variantes desse sensor. O segundo parâmetro informa ao código que o sensor está conectado à porta digital `D5` no _Grove Base Hat_.
 
     > ✅ Lembre-se, todos os soquetes têm números de pinos exclusivos. Os pinos 0, 2, 4 e 6 são pinos analógicos, pinos 5, 16, 18, 22, 24 e 26 são pinos digitais.
 

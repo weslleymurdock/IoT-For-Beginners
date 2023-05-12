@@ -23,7 +23,7 @@ Programe o dispositivo para publicar os dados de temperatura.
     - Adicione o código para se conectar ao broker MQTT
     - Adicione o código para publicar a telemetria
 
-    > ⚠️ Consulte as [instruções para se conectar ao MQTT](../../../../../1-getting-started/lessons/4-connect-internet/translations/wio-terminal-mqtt.pt.md) e as [instruções para enviar telemetria](../../../1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md) da lição 4, se necessário.
+    > ⚠️ Consulte as [instruções para se conectar ao MQTT](../../../../1-getting-started/lessons/4-connect-internet/wio-terminal-mqtt.md) (em inglês) e as [instruções para enviar telemetria](../../../../1-getting-started/lessons/4-connect-internet/wio-terminal-telemetry.md) (em inglês) da lição 4, se necessário.
 
 1. Certifique-se de que o `CLIENT_NAME` no arquivo de cabeçalho `config.h` reflita este projeto:
 

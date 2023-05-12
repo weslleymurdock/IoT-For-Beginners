@@ -8,8 +8,7 @@ O Terminal Wio precisa de um sensor de temperatura.
 
 O sensor que você usará é um [sensor de umidade e temperatura DHT11](https://www.seeedstudio.com/Grove-Temperature-Humidity-Sensor-DHT11.html), combinando 2 sensores em um pacote. Isso é bastante popular, com vários sensores comercialmente disponíveis combinando temperatura, umidade e, às vezes, pressão atmosférica. O componente do sensor de temperatura é um termistor de coeficiente de temperatura negativo (NTC), um termistor onde a resistência diminui à medida que a temperatura aumenta.
 
-Este é um sensor digital, portanto, possui um ADC integrado para criar um sinal digital contendo os dados de temperatura e umidade que o microcontrolador pode ler.
-
+Este sensor é digital, portanto, possui um ADC integrado para criar um sinal digital contendo os dados de temperatura e umidade que o microcontrolador pode ler.
 ### Conecte o sensor de temperatura
 
 O sensor de temperatura Grove pode ser conectado à porta digital Wio Terminals.
@@ -20,7 +19,7 @@ Conecte o sensor de temperatura.
 
 ![Um sensor de temperatura Grove](../../../../images/grove-dht11.png)
 
-1. Insira uma extremidade de um cabo Grove no soquete do sensor de umidade e temperatura. Só vai dar uma volta.
+1. Insira uma extremidade de um cabo Grove no soquete do sensor de umidade e temperatura. Só tem uma via.
 
 1. Com o Terminal Wio desconectado do computador ou de outra fonte de alimentação, conecte a outra extremidade do cabo Grove ao soquete Grove do lado direito do Terminal Wio enquanto olha para a tela. Este é o soquete mais distante do botão liga/desliga.
 
